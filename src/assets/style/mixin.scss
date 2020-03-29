@@ -1,0 +1,54 @@
+$ratio:375 / 10;
+@function px2rem($px){
+	@return $px / $ratio + rem;
+}
+@mixin center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@mixin left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+@mixin ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@mixin right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+@mixin top  {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+@mixin columnCenter{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+@mixin ellipsis2($line) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.icon{
+	font-size: px2rem(16);
+	color: #666666;
+}
+.text{
+	font-size: px2rem(16);
+	color: #666666;
+	font-weight: bold;
+}
