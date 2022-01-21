@@ -12,7 +12,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "better-scroll": "^1.15.2",
-    "epubjs": "^0.3.71",
+    "epubjs": "^0.3.89",
     "mockjs": "^1.1.0",
     "vue": "^2.5.2",
     "vue-create-api": "^0.2.3",
@@ -33,7 +33,7 @@
     "chalk": "^2.0.1",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.0",
-    "epubjs": "^0.3.85",
+    "epubjs": "^0.3.89",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
